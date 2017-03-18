@@ -1,0 +1,17 @@
+# Application
+web/app/plugins/*
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+vendor/*
