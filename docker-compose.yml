@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+   db:
+     image: mysql:5.7
+     volumes:
+       - db_data:/var/lib/mysql
+     environment:
+       MYSQL_ROOT_PASSWORD: wordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+
+   api:
+     depends_on:
+       - db
+     image: wordpress-api-example/api:latest
+     build:
+       context: ./api
+       dockerfile: ./docker/Dockerfile
+     volumes:
+       - ./api:/var/www
+     ports:
+       - "8000:443"
+
+volumes:
+    db_data:
