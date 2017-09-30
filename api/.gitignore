@@ -1,6 +1,7 @@
 # Application
 web/app/plugins/*
 web/app/mu-plugins/*/
+!web/app/mu-plugins/CustomPostTypes
 web/app/upgrade
 web/app/uploads/*
 

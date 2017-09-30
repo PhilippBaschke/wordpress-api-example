@@ -34,6 +34,11 @@
     },
     "wordpress-install-dir": "web/wp"
   },
+  "autoload": {
+    "psr-4": {
+      "PhilippBaschke\\WordPressApiExample\\MU\\": "web/app/mu-plugins"
+    }
+  },
   "scripts": {
     "lint": [
       "phpcs"
