@@ -5,3 +5,5 @@
  * Description: Custom post types for the WordPress API Example.
  * Author: Philipp Baschke
  */
+
+new Employee();
