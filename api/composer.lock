@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "031017964a05fced9c441968e7c92c32",
-    "content-hash": "686e46570fc3566eb54671e9282ae12d",
+    "hash": "7d72d9e102d26c3d6cd8d0377ed74f80",
+    "content-hash": "fe4a85ca6b31c1728db17ce8310983dc",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -21,6 +21,51 @@
                 "philippbaschke/acf-pro-installer": "^1.0"
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "airesvsg/acf-to-rest-api",
+            "version": "3.0.1-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/airesvsg/acf-to-rest-api.git",
+                "reference": "42dea4edcddbaac88148b150e1729981ff1a07b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/airesvsg/acf-to-rest-api/zipball/42dea4edcddbaac88148b150e1729981ff1a07b9",
+                "reference": "42dea4edcddbaac88148b150e1729981ff1a07b9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Aires Gonçalves",
+                    "email": "airesvsg@gmail.com",
+                    "homepage": "http://airesgoncalves.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Exposes Advanced Custom Fields Endpoints in the WordPress REST API",
+            "homepage": "https://github.com/airesvsg/acf-to-rest-api",
+            "keywords": [
+                "acf",
+                "fields",
+                "json",
+                "rest-api",
+                "wordpres-plugin",
+                "wordpress",
+                "wp",
+                "wp-api"
+            ],
+            "time": "2017-04-04 12:46:19"
         },
         {
             "name": "composer/installers",
@@ -538,7 +583,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "airesvsg/acf-to-rest-api": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
