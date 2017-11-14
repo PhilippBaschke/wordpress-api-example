@@ -4,6 +4,7 @@ web/app/mu-plugins/*/
 !web/app/mu-plugins/CustomPostTypes
 web/app/upgrade
 web/app/uploads/*
+web/app/languages/*
 
 # WordPress
 web/wp

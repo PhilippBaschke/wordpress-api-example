@@ -39,7 +39,8 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
-    "airesvsg/acf-to-rest-api": "3.0.1-beta"
+    "airesvsg/acf-to-rest-api": "3.0.1-beta",
+    "wpackagist-plugin/polylang": "2.2.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
