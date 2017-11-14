@@ -16,3 +16,6 @@ web/.htaccess
 
 # Composer
 vendor/*
+
+# OS
+.DS_Store
