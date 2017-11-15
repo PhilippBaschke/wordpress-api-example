@@ -6,4 +6,8 @@
  * Author: Philipp Baschke
  */
 
+if (!defined('ABSPATH')) {
+    exit;
+}
+
 new Employee();
