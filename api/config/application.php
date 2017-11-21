@@ -39,6 +39,11 @@ define('WP_HOME', env('WP_HOME'));
 define('WP_SITEURL', env('WP_SITEURL'));
 
 /**
+ * Theme
+ */
+define('WP_DEFAULT_THEME', env('WP_DEFAULT_THEME'));
+
+/**
  * Custom Content Directory
  */
 define('CONTENT_DIR', '/app');

@@ -10,6 +10,8 @@ services:
        MYSQL_DATABASE: wordpress
        MYSQL_USER: wordpress
        MYSQL_PASSWORD: wordpress
+     ports:
+       - "9000:3306"
 
    api:
      depends_on:
